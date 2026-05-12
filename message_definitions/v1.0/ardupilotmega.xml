@@ -1254,6 +1254,12 @@
       <entry value="29" name="COPTER_MODE_RATE_ACRO">
         <description>RATE_ACRO</description>
       </entry>
+
+            <!-- HIER DEINEN NEUEN MODUS EINFÜGEN -->
+      <entry value="31" name="COPTER_MODE_ADAPTIVE">
+        <description>L1Quad Adaptive Geometric Controller.</description>
+      </entry>
+      <!-- ENDE DEINER ÄNDERUNG -->
     </enum>
     <enum name="SUB_MODE">
       <description>A mapping of sub flight modes for custom_mode field of heartbeat.</description>
